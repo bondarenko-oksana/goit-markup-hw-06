@@ -76,11 +76,9 @@ position: relative;
     
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/office.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    
     max-width: 1440px;
-    margin: 0 auto;
+   
 }
 .heading-one {
     font-size: 56px;
@@ -89,10 +87,7 @@ position: relative;
     text-align: center;
     letter-spacing: 0.02em;
     
-    display: flex;
-    max-width: 496px;
-    margin-left: auto;
-    margin-right: auto;
+    
     margin-bottom: 48px;
     
 
@@ -132,12 +127,7 @@ position: relative;
     color: #2e2f42;
 }
 
-.section-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+
 .section-two {
     padding: 120px 0;
 }
