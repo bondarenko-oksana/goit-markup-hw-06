@@ -155,7 +155,7 @@ position: relative;
     display: flex;
     gap: 24px;
 }
-
+/*
 .section-three {
     background-color: #F4F4FD;
     padding: 120px 0;
@@ -174,9 +174,9 @@ position: relative;
 }
 
 .section-three-list {
-    display: flex;
+  
     gap: 24px;
-}
+}*/
 .hero-list {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);

@@ -470,6 +470,9 @@ width: 100%;
 .strategy-list {
     width: calc((100% - 72px) / 2)
 }
+.heading-three {
+    text-align: left;
+}
 }
 
 .heading-three {
@@ -486,6 +489,19 @@ width: 100%;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+@media screen and (min-width: 768px) {
+    .section-two-list {
+        flex-direction: row;
+    }
+
+    .strategy-list {
+        width: calc((100% - 72px) / 2)
+    }
+
+    .heading-three {
+        text-align: left;
+    }
 }
 @media (min-width: 1158px) {
     .section-two {
@@ -504,7 +520,7 @@ width: 100%;
             font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
-    }
+                }
         .strategy-list {
             width: calc((100% - 72px) / 4)
         }
@@ -534,13 +550,88 @@ width: 100%;
 .section-three-list {
     display: flex;
     flex-wrap: wrap;
-    padding: 72px 12px 96px;
+    padding: 72px 12px 96px 12px;
     gap: 72px }
 
+.hero-list {
+    background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.third-sec-heading-text {
+    padding: 32px 0;
+
+}
+
+.name-heading-three {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.position {
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+.social-icons-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-icons-item {
+    width: 40px;
+    height: 40px;
+}
+
+.social-icons-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icons-link:hover,
+.social-icons-link:focus {
+    background-color: #404bbf;
+}
+
+.so-icon {
+    fill: #f4f4fd;
+}
+
+@media screen and (min-width: 768px) {
+    .section-three {
+        padding: 0 108px;
+    }
+    .hero-list {
+            width: calc((100% - 24px) / 2);
+        }
+    
+        .section-three-list {
+            gap: 24px;
+        }
+}
 @media (min-width: 1158px) {
     .section-three {
         padding: 120px 0;
-}}
+}
+   .hero-list {
+    width: calc((100% - 72px) / 4);
+  }
+
+}
+
 
 
 
