@@ -393,6 +393,7 @@ transform: translateY(0%);
 
 .sub-form {
     display: flex;
+    
     gap: 24px;
     
 }
