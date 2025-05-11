@@ -1079,12 +1079,11 @@ margin-right: 80px;
    
 
 @media screen and (min-width: 768px) {
-.checkbox-label {
-    display: block;
+
 .checkbox-text {
     margin-left: 8px;
 }
-}}
+}
     
 .checkbox-span {
     width: 16px;
